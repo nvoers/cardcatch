@@ -52,6 +52,16 @@ django = ">=3.2.14"
 reload = ["django-browser-reload (>=1.12.1,<2.0.0)"]
 
 [[package]]
+name = "fontawesomefree"
+version = "6.5.1"
+description = "Font Awesome Free"
+optional = false
+python-versions = "*"
+files = [
+    {file = "fontawesomefree-6.5.1-py3-none-any.whl", hash = "sha256:8dec4a2ee37bf8e53379ebbf0d38cefec4e06c7c9227f59af39dbb7b1632817b"},
+]
+
+[[package]]
 name = "sqlparse"
 version = "0.5.0"
 description = "A non-validating SQL parser."
@@ -80,4 +90,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "47e685ad2eb5778283e7b45dfddaa0a52057ad7e33462a16aed59f66198b8b8b"
+content-hash = "e373d137a6fb5c20ed00751233b66356e64f3032b0779e9b814eacbc3edcbe53"

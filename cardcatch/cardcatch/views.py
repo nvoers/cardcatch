@@ -5,7 +5,7 @@ from django.shortcuts import render
 class IndexView(TemplateView):
     """Index view."""
 
-    template_name = "base.html"
+    template_name = "index.html"
 
     def get(self, request, **kwargs):
         """

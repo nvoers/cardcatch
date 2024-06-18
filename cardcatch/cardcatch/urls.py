@@ -20,7 +20,7 @@ from django.urls import include, path
 from .views import IndexView
 
 urlpatterns = [
-    path("", IndexView.as_view(), name="home"),
+    path("", IndexView.as_view(), name="index"),
     path("admin/", admin.site.urls),
     path("__reload__/", include("django_browser_reload.urls")),
 ]
